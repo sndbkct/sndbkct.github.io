@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://san.net/logout? -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title id="title">san.net &gt; logout</title>
+
+<meta name="theme-color" content="#1FA2FF">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/style.pink.css">
+</head>
+
+<body>
+<script language="JavaScript">
+
+    function openLogin() {
+	if (window.name != 'hotspot_logout') return true;
+	open('http://san.net/login', '_blank', '');
+	window.close();
+	return false;
+    }
+
+</script>
+
+<div class="main">
+<div class="box">
+    <div style="margin-top:30px; text-align: center; color:#fff;"><i style="font-size:50px;" class="icon icon-user-circle-o">&#62142;</i> <h3 id="user">net</h3></div><br>
+    <b style="margin-top:20px; color:#fff;">Anda telah keluar dari hotspot!</b> <br><br>
+</div>
+<div class="container">
+<table class="table2">
+    <tbody><tr><td align="right">IP Address  <i class="icon icon-sitemap">&#61672;</i> </td><td>192.168.2.18</td></tr>
+    <tr><td align="right">MAC Address <i class="icon icon-barcode">&#59402;</i>  </td><td>DE:F5:49:01:AC:B5</td></tr>
+    <tr><td align="right">Terkoneksi <i class="icon icon-exchange">&#61676;</i> </td><td>33m14s</td></tr>
+    <tr><td align="right">Upload <i class="icon icon-upload">&#59400;</i> </td><td>1264.1 KiB</td></tr>
+    <tr><td align="right">Download <i class="icon icon-download">&#59401;</i> </td><td>2001.7 KiB</td></tr>
+
+
+</tbody></table>
+<br>
+<form action="http://san.net/login" name="login" onsubmit="return openLogin()">
+        <button class="button" type="submit"><i class="icon icon-login">&#59395;</i> Login Kembali</button>
+</form>
+</div>
+</div>
+<script type="text/javascript">
+	document.getElementById('title').innerHTML = window.location.hostname + " > logout";
+</script>
+
+
+</body></html>
